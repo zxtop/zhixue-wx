@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:if="{{isShow}}" class="content" bindtap="uploadDetailImage">
+    <image src="/images/juxing.png" mode="aspectFill"></image>
+    <text class="img_text">拍照上传</text>
+  </view>
+</view>
+
+<view class="img-list">
+  
+  <block wx:for="{{detailPics}}" wx:key="index">
+    <view class="img-item">
+      <span class="{{isDel?'del_span':''}}" bindtap="delImg" data-index="{{item.index}}"></span>
+      <image class="img-age" src="{{item.path}}" data-index="{{item.index}}"></image>
+    </view>
+  </block>
+
+</view>
+
+<view>
+  <button wx:if="{{!isShow}}" class="btn1" style="margin-top:100rpx;background-color:#67a4f1;color:#fff" bindtap="uploadClound">上传</button>
+  <button wx:if="{{!isShow}}" class="btn2" style="margin-top:50rpx;background-color:#d87372;color:#fff" bindtap="click_del">{{delString}}</button>
+  <button wx:if="{{!isShow}}" class="btn3" style="margin-top:50rpx;background-color:#feb041;color:#fff" bindtap="click_back">取消返回</button>
+</view>
+

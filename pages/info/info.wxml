@@ -1,0 +1,77 @@
+<view class="list">
+
+  <view class="content">
+    <view class="subject">
+      <image src="/images/file1.png"></image>
+      <view class="cont_txt">
+        <text class="sub">语文</text>
+      </view>
+      <view class="cont_sum">
+        <text class="sum">错题库：999</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="content">
+    <view class="subject">
+      <image src="/images/file2.png"></image>
+      <view class="cont_txt">
+        <text class="sub">数学</text>
+      </view>
+      <view class="cont_sum">
+        <text class="sum">错题库：999</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="content">
+    <view class="subject">
+      <image src="/images/file3.png"></image>
+      <view class="cont_txt">
+        <text class="sub">英语</text>
+      </view>
+      <view class="cont_sum">
+        <text class="sum">错题库：999</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="content">
+    <view class="subject">
+      <image src="/images/file4.png"></image>
+      <view class="cont_txt">
+        <text class="sub">物理</text>
+      </view>
+      <view class="cont_sum">
+        <text class="sum">错题库：999</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="content">
+    <view class="subject">
+      <image src="/images/file1.png"></image>
+      <view class="cont_txt">
+        <text class="sub">化学</text>
+      </view>
+      <view class="cont_sum">
+        <text class="sum">错题库：999</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="content">
+    <view class="subject">
+      <image src="/images/file2.png"></image>
+      <view class="cont_txt">
+        <text class="sub">生物</text>
+      </view>
+      <view class="cont_sum">
+        <text class="sum">错题库：999</text>
+      </view>
+    </view>
+  </view>
+</view>

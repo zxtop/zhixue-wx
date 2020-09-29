@@ -1,0 +1,30 @@
+.content{
+  padding: 32rpx;
+  padding-bottom: 20rpx;
+}
+.subject{
+  position: relative;
+  padding-bottom: 15rpx;
+  border-bottom: 2rpx solid #efefef;
+}
+.subject > image{
+  width: 98rpx;
+  height: 96rpx;
+}
+.cont_txt{
+  position: absolute;
+  left: 130rpx;
+  top: 5rpx;
+}
+.cont_txt .sub{
+  font-size: 32rpx;
+}
+.cont_sum{
+  position: absolute;
+  left: 132rpx;
+  top: 50rpx;
+}
+.cont_sum .sum{
+  font-size: 26rpx;
+  color: #ccc;
+}

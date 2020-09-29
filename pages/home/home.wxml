@@ -1,0 +1,22 @@
+<view class="content">
+  <view class="login">
+    <image src="/images/avatar.jpg" mode="aspectFill"></image>
+    <text>登陆</text>
+  </view>
+
+  <view class="right">
+    <image src="/images/right.png" mode="aspectFill"></image>
+  </view>
+</view>
+
+<view class="menu">
+
+  <view class="menu_cont" bindtap="info">
+    <image src="/images/book.png"></image>
+    <text>我的错题库</text>
+    <view class="arrow">
+      <image src="/images/right.png"></image>
+    </view>
+  </view>
+
+</view>
